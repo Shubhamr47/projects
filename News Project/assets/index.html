@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" class="company-logo">
+                <img src="./logo.png" alt="company logo">
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item">IPL</li>
+                    <li class="hover-link nav-item">Finance</li>
+                    <li class="hover-link nav-item">Politics</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" placeholder="e.g Science">
+                <button class="search-button">Search </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="cards-contaner container flex">
+            
+        </div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400*200" alt="news-image" id="news-image">
+            </div>
+            <div class="card-content">
+                <h3 class="news-title">This is the Title</h3>
+                <h6 class="news-sourse" id="news-sourse">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eligendi cupiditate beatae earum quasi, alias consectetur iure! Ab quos dignissimos quo autem assumenda recusandae, doloribus exercitationem at repellat, maxime alias?</p>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
